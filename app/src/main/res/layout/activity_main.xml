@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg"
+    >
+
+    <TextView
+        android:id="@+id/bts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="60sp"
+        android:textColor="@color/colorwhite"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter username"
+        android:textColor="@color/colorwhite"
+        android:layout_below="@id/bts"
+        android:layout_marginHorizontal="40dp"
+        />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="@color/colorwhite"
+        android:hint="password"
+        android:layout_below="@id/user"
+        android:layout_marginHorizontal="40dp"
+        />
+    <Button
+        android:id="@+id/lgbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorblue"
+        android:layout_below="@id/pass"
+        android:text="login"
+        android:layout_marginHorizontal="40dp"/>
+
+
+
+
+
+
+</RelativeLayout>
